@@ -359,3 +359,23 @@ footer > div {
     width: 100%;
   }
 }
+
+@media screen and (orientation: portrait) {
+  #mainstuff span {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 0 0 4em 0;
+    height: 25em;
+    max-height: 50vh;
+    min-height: 18em;
+    width: 100%;
+  }
+  #mainstuff .content {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100%;
+  }
+  #mainstuff {
+    flex-direction: column-reverse;
+  }
+}
